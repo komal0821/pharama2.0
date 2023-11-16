@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ea726fd.css",
+    "main.js": "/static/js/main.69eacc4e.js",
+    "static/media/WhatsApp Image 2023-10-02 at 21.45.22.jpeg": "/static/media/WhatsApp Image 2023-10-02 at 21.45.22.b72ca5d9ab631a28c65d.jpeg",
+    "index.html": "/index.html",
+    "main.7ea726fd.css.map": "/static/css/main.7ea726fd.css.map",
+    "main.69eacc4e.js.map": "/static/js/main.69eacc4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ea726fd.css",
+    "static/js/main.69eacc4e.js"
+  ]
+}

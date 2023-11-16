@@ -1,0 +1,84 @@
+/* Product.css */
+
+/* Style the product card */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow effect */
+  padding: 20px;
+  background-color: #fff; /* White background color */
+  width: 80%;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add smooth transition effects */
+
+  /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the product image */
+.product-image {
+  max-width: 600px;
+  height: auto;
+  max-height: 300px;
+  width: 300px;
+  border-radius: 10px; /* Rounded corners for the image */
+  margin-bottom: 20px; /* Add space between image and other elements */
+}
+
+/* Style the product name */
+.product-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: #333; /* Darker text color */
+}
+
+/* Style the product description */
+.product-description {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the product price */
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #2a9133; /* Orange price color */
+}
+/* Style the product image container */
+.product-image-container {
+  width: 100%;
+  height: 300px; /* Set a fixed height for the container */
+  overflow: hidden; /* Hide any overflow to prevent distortion */
+}
+
+/* Style the product image */
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+
+/* Style the "Buy Now" button */
+.product-buy-button {
+  background-color: #396d2e;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background-color: #ff4500; /* Darker orange color on hover */
+    transform: scale(1.05); /* Enlarge the button slightly on hover */
+  }
+}

@@ -1,0 +1,84 @@
+/* Styling for the collage section */
+.collage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /*Adjust the height as needed */
+  background-image: url(/src/Component/WhatsApp\ Image\ 2023-10-02\ at\ 21.45.22.jpeg);
+  
+}
+
+/* Styling for the image container */
+.image-container {
+  flex: 1;
+  max-width: 50%; /* Adjust the image container width as needed */
+  padding: 20px;
+  
+}
+
+/* Styling for the displayed image */
+.image-container img {
+  max-width: 100%; /* Ensure the image scales within its container */
+  height: auto;
+  background: #000;
+}
+
+/* Styling for the text container */
+.text-container {
+  flex: 1;
+  max-width: 50%; /* Adjust the text container width as needed */
+  padding: 20px;
+  
+}
+
+/* Styling for text elements */
+.text-container h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e9eb51; /* Text color */
+}
+
+.text-container p {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #0b0b0a; /* Text color */
+}
+
+/* Additional styling for other sections can be added below */
+/* Add these styles to your HomePage.css file */
+
+.language-selector {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-english {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button-tamil {
+  background-color: #FFC107;
+  color: white;
+}
+
+.button-hindi {
+  background-color: #2196F3;
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}

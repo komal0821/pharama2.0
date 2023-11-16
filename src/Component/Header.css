@@ -1,0 +1,51 @@
+/* Header.css */
+
+.navbar {
+    background-color: #1c592c;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align items to both extremes */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically align the button within the navbar */
+  }
+  
+  .pharma-button {
+    /* background-color: #ff5733;  */
+    color:black;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 0;
+  }
+  
+  .navbar-nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  /* Style for the active link, you can customize it further */
+  .navbar-nav a:hover {
+    text-decoration: underline;
+  }
+  
